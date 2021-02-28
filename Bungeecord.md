@@ -19,3 +19,6 @@ Getting Bungeecord installed and running is super easy!
 - Now, you'll need to install the BungeeCord JAR file. Download the JAR at the [Jenkin's CI Server](https://ci.md-5.net/job/BungeeCord/)
 - Download the jar file by clicking the link highlighted by red pen in the below screenshot:
 ![Downloading BungeeCord.jar Screenshot.png](https://versatilenode-kb.kawaiicdn.com/assets/images/bungeecord-maven.png?_t=1614519622)
+
+- Once you have the BungeeCord.jar file downloaded and saved, it's time to upload it to your server.
+- Upload the recently downloaded BungeeCord.jar file to your main server directory
