@@ -22,6 +22,7 @@ Getting Bungeecord installed and running is super easy!
 
 - Once you have the BungeeCord.jar file downloaded and saved, it's time to upload it to your server.
 - Upload the recently downloaded BungeeCord.jar file to your main server directory, making sure that Bungeecord.jar is the ONLY file in your server files as of now.
+
 ![BungeeCord file in SFTP.png](https://versatilenode-kb.kawaiicdn.com/assets/images/bungeecord-file-in-sftp.png?_t=1614519985)
 
 - Once the file has been uploaded, rename it to **server.jar**
