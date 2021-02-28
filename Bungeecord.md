@@ -21,4 +21,21 @@ Getting Bungeecord installed and running is super easy!
 ![Downloading BungeeCord.jar Screenshot.png](https://versatilenode-kb.kawaiicdn.com/assets/images/bungeecord-maven.png?_t=1614519622)
 
 - Once you have the BungeeCord.jar file downloaded and saved, it's time to upload it to your server.
-- Upload the recently downloaded BungeeCord.jar file to your main server directory
+- Upload the recently downloaded BungeeCord.jar file to your main server directory, making sure that Bungeecord.jar is the ONLY file in your server files as of now.
+![BungeeCord file in SFTP.png](https://versatilenode-kb.kawaiicdn.com/assets/images/bungeecord-file-in-sftp.png?_t=1614519985)
+
+- Once the file has been uploaded, rename it to **server.jar**
+- Start your server, and BungeeCord should be ready to go!
+
+
+### Configuring BungeeCord
+A guide on how to configure BungeeCord and what each config option does will be releasing soon!
+
+### Recommended Plugins
+Here is a list of some of the best BungeeCord Plugins to use on your server!
+*Click the name of the plugin to view it's homepage / spigot page!*
+
+- Permissions Plugin » [LuckPerms](https://luckperms.net/)
+- Punishments Plugin » [LiteBans](https://www.spigotmc.org/resources/litebans.3715/) (Premium Plugin)
+- StaffChat Plugin » [UltraStaffChat](https://www.spigotmc.org/resources/ultrastaffchat-bungeecord.68956/) (Free) // [UltraStaffChatPro](https://www.spigotmc.org/resources/ultrastaffchatpro.80461/) (Paid)
+- *More coming soon? :thonk:*
