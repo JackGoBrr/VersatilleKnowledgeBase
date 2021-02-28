@@ -1,5 +1,5 @@
 # An introduction to BungeeCord
-Ever wanted to create a multiple-server network? Well Bungeecord (Bungee) is here to help!
+Ever wanted to create a multiple-server network? Well Bungeecord is here to help!
 BungeeCord is a smaller server instance that creates a proxy for your players to connect and move around servers connected to your network.
 
 BungeeCord can be really confusing to setup, but with this set of guides, you'll be up and running like a charm in no time!
@@ -12,3 +12,10 @@ To run Bungeecord, you need the following:
 - If you want to use Dedicated IP, you only need to purchase it for your service that is running Bungee, nothing else.
 
 ### Getting BungeeCord up and running
+Getting Bungeecord installed and running is super easy!
+
+- First, stop your server
+- Then, backup and clear all files that are currently on your server. (If the server you're working on is a fresh server, just delete any of the files that are automatically in there, make sure the main directory is empty)
+- Now, you'll need to install the BungeeCord JAR file. Download the JAR at the [Jenkin's CI Server](https://ci.md-5.net/job/BungeeCord/)
+- Download the jar file by clicking the link highlighted by red pen in the below screenshot:
+![Downloading BungeeCord.jar Screenshot.png](https://versatilenode-kb.kawaiicdn.com/assets/images/bungeecord-maven.png?_t=1614519622)
