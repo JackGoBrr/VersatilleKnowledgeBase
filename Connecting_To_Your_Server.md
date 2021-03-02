@@ -1,7 +1,7 @@
 # Connecting to your Minecraft Java Server
 So you bought your service, and you don't know how to connect. Oh no! Don't worry though - this guide is here to help! Read the step-by-step guide below for connecting to your server.
 
-*There are 2 sets of steps, one for 1.8.9 clients, and one for 1.16.5 clients, all other clients follow a similar method, and should be quite easy to follow these steps.*
+*This is a guide for 1.8 - Please read the guide (Here but link soon) for connecting on 1.16*
 
 ### Connecting to your server: Minecraft 1.8.9
 *Follow these super easy steps and you'll be connected in no time!*
