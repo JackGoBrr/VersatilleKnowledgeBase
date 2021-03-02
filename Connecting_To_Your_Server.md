@@ -1,9 +1,9 @@
-# Connecting to your Minecraft Java Server
+# Connecting to your Minecraft Java Server: Minecraft 1.8.x
 So you bought your service, and you don't know how to connect. Oh no! Don't worry though - this guide is here to help! Read the step-by-step guide below for connecting to your server.
 
 *This is a guide for 1.8 - Please read the guide (Here but link soon) for connecting on 1.16*
 
-### Connecting to your server: Minecraft 1.8.9
+### Let's get connected!
 *Follow these super easy steps and you'll be connected in no time!*
 
 - Step 1: Start your server using the start button on your game panel
