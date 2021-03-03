@@ -3,7 +3,7 @@ So you bought your service, and you don't know how to connect. Oh no!
 
 Don't worry though - this guide is here to help! Read the step-by-step guide below for connecting to your server.
 
-*This is a guide for 1.8 - Please read the guide (Here but link soon) for connecting on 1.16*
+*Connecting to a server is very similar on all Minecraft Versions, for extra help, there is the same guide based on 1.16, located (Here (Soon:tm:))*
 
 ### Let's get connected!
 *Follow these super easy steps and you'll be connected in no time!*
