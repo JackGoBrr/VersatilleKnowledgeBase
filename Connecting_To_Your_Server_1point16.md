@@ -13,3 +13,22 @@ Don't worry though - this guide is here to help! Read the step-by-step guide bel
 - Step 3: Select the Multiplayer option on the main screen, as shown in the screenshot below
 
 ![Main Screen 1.16](https://versatilenode-kb.kawaiicdn.com/assets/images/1.16-main-screen.png?_t=1614771176)
+
+- Step 4: Click proceed on the warning menu that *may* appear, you can click "Don't show again" to make the menu disappear forever if you wish to.
+
+![Multiplayer Warning Screen](https://versatilenode-kb.kawaiicdn.com/assets/images/1.16-warning-screen.png?_t=1614771161)
+
+- Step 5: Select "Add Server" on the next menu
+
+![Selecting "Add Server"](https://versatilenode-kb.kawaiicdn.com/assets/images/1.16-multiplayer-menu.png?_t=1614771181)
+
+- Step 6: Type in your server's name (E.g. VersatilleCraft or MyCoolServer, etc.)
+- Step 7: Type in your server's IP (Found in the panel of your service) and select "Done"
+
+![Adding a Server on 1.16](https://versatilenode-kb.kawaiicdn.com/assets/images/1.16-add-server-menu.png?_t=1614771166)
+
+- Step 8: Click once on your server, and select Join Server
+
+![1.16 Server Added to menu](https://versatilenode-kb.kawaiicdn.com/assets/images/1.16-server-added.png?_t=1614771186)
+
+- Step 9: Congrats! Welcome to your new server 🎉
