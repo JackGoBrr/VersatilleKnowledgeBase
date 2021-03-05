@@ -23,4 +23,15 @@ Getting bored of the default look of minecraft, and want a change? Well you're i
 - Step 12: Apply the new resource pack
 - Step 13: All done!
 
-`Note: Some client require you to restart your game to make the new packs appear.`
+`Note: Some clients require you to restart your game to make the new packs appear.`
+
+### Installing the pack on Mac:
+*Follow this set of steps if you are on an Apple Macintosh / Macbook or similar*
+- Step 7: Go into your game, select `Options -> Resource Packs`
+- Step 8: Click the `Open Resource Packs Folder` button at the bottom of the menu
+- Step 9: Drag the .zip file into the newly-opened folder window
+- Step 10: Refresh the Resource Packs menu in your game by pressing `Esc`, and then navigating back to the Resource Packs menu
+- Step 11: Apply the new resource pack
+- Step 12: All done!
+
+`Note: Some clients require you to restart your game to make the new packs appear.`
