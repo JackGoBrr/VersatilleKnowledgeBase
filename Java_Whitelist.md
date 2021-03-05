@@ -26,10 +26,10 @@ In this example, we'll be __adding__ the player `JackGoBrr` to the whitelist on 
 - Step 3: Type this command in chat: `/whitelist add JackGoBrr`, replacing "JackGoBrr" with a player name of your choice
 - Step 4: The server will return a message telling you it was successful, as shown in the screenshot below
 
-![Adding to whitelist with cmds]()
+![Adding to whitelist with cmds](https://versatilenode-kb.kawaiicdn.com/assets/images/whitelist-command-adding.png?_t=1614937614)
 
 To remove someone using commands, it's exactly the same, but instead of typing "`/whitelist add`", replace `add` with `remove`!
 
-![Removing from whitelist with cmds]()
+![Removing from whitelist with cmds](https://versatilenode-kb.kawaiicdn.com/assets/images/whitelist-command-removing.png?_t=1614937610)
 
 ```Remember: Never put a / before commands if you are executing them from console!```
