@@ -20,12 +20,14 @@ The whitelist is a feature built into vanilla minecraft in order to allow you to
 | /whitelist off | Turns off the whitelist.|
 
 ### How to add / remove someone from the Whitelist using commands:
-In this example, we'll be adding the player `JackGoBrr` to the whitelist on our server, using commands.
+In this example, we'll be __adding__ the player `JackGoBrr` to the whitelist on our server, using commands.
 - Step 1: Log into your server
 - Step 2: Ensure that you OP yourself from Console. OPs are the only ones that are able to use the whitelist commands.
 - Step 3: Type this command in chat: `/whitelist add JackGoBrr`, replacing "JackGoBrr" with a player name of your choice
 - Step 4: The server will return a message telling you it was successful, as shown in the screenshot below
 
 ![Adding to whitelist]()
+
+To remove someone using commands, it's exactly the same, but instead of typing "`/whitelist add`", replace `add` with `remove`!
 
 ```Remember: Never put a / before commands if you are executing them from console!```
