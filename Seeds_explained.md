@@ -9,11 +9,11 @@ different combinations of a seed, yes you read that, nearly 2 quintillion.
 ### How do I find the seed of my current world?
 Finding the seed of your world is super easy! All you need to do is run a single command, like so:
 
-![Executing the seed command]()
+![Executing the seed command](https://versatilenode-kb.kawaiicdn.com/assets/images/Jack/Seeds%20Explained/executing-seed-command.png?_t=1615667812)
 
 and if you run the command correctly, you'll get an output similar to this, but instead, you'll have your world's seed in green instead of mine!
 
-![/seed output]()
+![/seed output](https://versatilenode-kb.kawaiicdn.com/assets/images/Jack/Seeds%20Explained/seed-output.png?_t=1615667809)
 
 ### How do I force a seed on my server?
 Forcing a seed is also super easy, all you need is a way to connect to your server's file access. If you don't know how to connect to your server's sFTP, read [this guide]().
@@ -22,7 +22,7 @@ Once you are connected, follow these steps:
 - Step 2: Once it's offline, head into your servers files and find the **server.properties** file.
 - Step 3: Find the **level-seed** value, and insert your desired string of numbers (aka. the seed you would like to force)
 
-![Level Seed annotated 2]()
+![Level Seed annotated 2](https://versatilenode-kb.kawaiicdn.com/assets/images/Jack/Seeds%20Explained/level-seed-properties.png?_t=1615667817)
 
 - Step 4: Delete the **World** folder in your servers root folder
 
