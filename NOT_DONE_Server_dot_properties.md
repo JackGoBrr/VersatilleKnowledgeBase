@@ -32,6 +32,25 @@ View the table below for a guide on what each option does:
 | `op-permission-level` | Chooses how powerful operators are on the server | Any value between `1` and `4` | `4` |
 | `pvp` | Chooses whether players will be able to attack each other on the server | `true` or `false` | `true` |
 | `entity-broadcast-range-percentage` | How far away players need to be for entities to be rendered, expressed in a percentage. For example, if the value is set to 50, it will be half as much. | Any value between `1` and `100` | `100` |
+| `snooper-enabled` | Sets whether the server sends snoop data regularly to http://snoop.minecraft.net [Depreciated Feature] | `true` or `false` | `true` |
+| `level-type` | Decides how the overworld should be generated | `flat`, `legacy` or `default` | `default` |
+| `enable-status` | If this is disabled, the server will appear to be offline on a client's server list, but will still accept connections | `true` or `false` | `true` |
+| `hardcore` | Decides whether the server will run on the **Hardcore** difficulty | `true` or `false` | `false` |
+| `enable-command-block` | Decides whether Command Blocks are able to be used on the server | `true` or `false` | `false` |
+| `network-compression-threshold` | Limits the amount of bytes that can be sent in a packet before it is compressed. It is not recommended to change this setting unless you know what you're doing! | Any integer value | `256` |
+| `max-players` | Decides the maximum amount of players that can be online at a time | Any integer value | `20` |
+| `max-world-size` | The world is infinite if this value is left as default. Otherwise, the value is half the world border. E.g. if the value is set to `1000`, the border will be `2000x2000` | `29999984` |
+| `resource-pack-sha1` | The SHA1 code for the server resource pack. Find out more about this in our Server Resource Pack guide | `Any valid SHA1 key` | `None`
+| `function-permission-level` | Sets the permission level that functions are allowed to use. See the OP Permission levels guide for more info | Any value ranging between `1` or `4` | `2` |
+| `rcon.port` | Changes the port of the server. Not recommended unless rCon is enabled and you know what you're doing. | Any valid port value | `25575` |
+| `server-port` | Changes the server port. Do not change this unless configured in your server panel / router! | Any valid port value | `25565`, or the port listed on your panel |
+| `debug` | If this option is true, more information is logged to console on startup. Useful for beta spigot versions. | `true` or `false` | `false` |
+| `server-ip` | Sets the IP that the server binds to on startup. Do not change this unless told to, VersatilleNode handles this automatically! | Any valid IP address | `None` |
+| `spawn-npcs` | Controls whether NPCs such as Villagers and Wandering Traders spawn naturally | `true` or `false` | `true` |
+| `allow-flight` | Controls whether the server checks for flying players and kicks them automatically | `true` or `false` | `false` |
+| `level-name` | The name of the default world. Set this to the name of the folder that you have dragged in if installing something like an adventure map on your server | Any valid folder name | `world` |
+| `view-distance` | 
+
 
 ### Notes
 Below are some points to take note of when customising the sever.properties file:
@@ -39,6 +58,8 @@ Below are some points to take note of when customising the sever.properties file
 - It is __not recommended__ to change the `max-tick-time` value
 - If you change any port values (Such as `query.port`, you must have the port open in your router / host settings)
 - If `allow-nether` is set to `false`, and there is no world folder for the nether, it will not be generated.
+- You must delete the `world` folder and restart the server for the `level-type` variable to take effect.
+- Certain plugins, such as [JoinFullServer](https://www.spigotmc.org/resources/join-full-server.13949/), can bypass the limit if the player has the given permission node.
 
 ### How to edit the server.properties file
 Soon:tm:
