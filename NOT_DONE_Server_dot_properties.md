@@ -16,15 +16,16 @@ View the table below for a guide on what each option does:
 | --- | --- | --- | --- |
 | `spawn-protection` | The amount of block around / away from spawn that a regular player cannot build / interact on | Any number you'd like | 16 |
 | `max-tick-time` | The amount of milliseconds a single ticket is allowed to take before the server shuts down due to lag. | Any number between 1 and 9223372036854775807 | 6000 |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| `query.port` | The port that the server's query protocol will run on | Any port number ranging from 25565 to 40000 | 25565 |
+| `generator-settings` | Depreciated Feature | None | None |
+| `force-gamemode` | If this value is toggled to `true`, the gamemode stated in the `gamemode` setting will be the default gamemode for all new players upon login | `true` or `false` | `false` |
 |  |  |  |  |
 
 ### Notes
 Below are some points to take note of when customising the sever.properties file:
 - `spawn-protection` is ignored unless at least 1 player has the OPERATOR status on the server (Make a player an Operator by running `/op Their_Username`)
 - It is __not recommended__ to change the `max-tick-time` value
+- If you change any port values (Such as `query.port`, you must have the port open in your router / host settings)
 
 ### How to edit the server.properties file
 Soon:tm:
