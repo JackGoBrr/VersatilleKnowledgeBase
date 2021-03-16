@@ -30,6 +30,8 @@ View the table below for a guide on what each option does:
 | `broadcast-rcon-to-ops` | Decides whether or not rcon messages are sent to online operators | `true` or `false` | `true` |
 | `spawn-monsters` | Chooses whether hostile mobs will be able to spawn | `true` or `false` | `true` |
 | `op-permission-level` | Chooses how powerful operators are on the server | Any value between `1` and `4` | `4` |
+| `pvp` | Chooses whether players will be able to attack each other on the server | `true` or `false` | `true` |
+| `entity-broadcast-range-percentage` | How far away players need to be for entities to be rendered, expressed in a percentage. For example, if the value is set to 50, it will be half as much. | Any value between `1` and `100` | `100` |
 
 ### Notes
 Below are some points to take note of when customising the sever.properties file:
