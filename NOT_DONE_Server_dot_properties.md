@@ -22,6 +22,7 @@ View the table below for a guide on what each option does:
 | `allow-nether` | Allow travelling between the Nether and the Overworld | `true` or `false` | `true` |
 | `enforce-whitelist` | Toggled whether or not the whitelist is on | `true` or `false` | `false` |
 | `gamemode` | Pairs with the `force-gamemode` setting. Whatever this is set to will be the gamemode players are put into on login when `force-gamemode` is set to `true` | Any valid Gamemode: e.g. `survival`, `creative`, `spectator` or `adventure` | `survival` |
+| `broadcast-console-to-ops` | Decides whether or not console events, such as messages from `/op` will be shown to online server operators | `true` or `false` | `true` |
 
 ### Notes
 Below are some points to take note of when customising the sever.properties file:
