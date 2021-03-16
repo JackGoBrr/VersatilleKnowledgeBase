@@ -19,13 +19,16 @@ View the table below for a guide on what each option does:
 | `query.port` | The port that the server's query protocol will run on | Any port number ranging from 25565 to 40000 | 25565 |
 | `generator-settings` | Depreciated Feature | None | None |
 | `force-gamemode` | If this value is toggled to `true`, the gamemode stated in the `gamemode` setting will be the default gamemode for all new players upon login | `true` or `false` | `false` |
-|  |  |  |  |
+| `allow-nether` | Allow travelling between the Nether and the Overworld | `true` or `false` | `true` |
+| `enforce-whitelist` | Toggled whether or not the whitelist is on | `true` or `false` | `false` |
+| `gamemode` | Pairs with the `force-gamemode` setting. Whatever this is set to will be the gamemode players are put into on login when `force-gamemode` is set to `true` | Any valid Gamemode: e.g. `survival`, `creative`, `spectator` or `adventure` | `survival` |
 
 ### Notes
 Below are some points to take note of when customising the sever.properties file:
 - `spawn-protection` is ignored unless at least 1 player has the OPERATOR status on the server (Make a player an Operator by running `/op Their_Username`)
 - It is __not recommended__ to change the `max-tick-time` value
 - If you change any port values (Such as `query.port`, you must have the port open in your router / host settings)
+- If `allow-nether` is set to `false`, and there is no world folder for the nether, it will not be generated.
 
 ### How to edit the server.properties file
 Soon:tm:
