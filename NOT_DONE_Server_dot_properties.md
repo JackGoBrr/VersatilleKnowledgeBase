@@ -15,7 +15,7 @@ View the table below for a guide on what each option does:
 | Command | Explanation | Accepted Values | Default |
 | --- | --- | --- | --- |
 | `spawn-protection` | The amount of block around / away from spawn that a regular player cannot build / interact on | Any number you'd like | 16 |
-|  |  |  |  |
+| `max-tick-time` | The amount of milliseconds a single ticket is allowed to take before the server shuts down due to lag. | Any number between 1 and 9223372036854775807 | 6000 |
 |  |  |  |  |
 |  |  |  |  |
 |  |  |  |  |
@@ -24,5 +24,7 @@ View the table below for a guide on what each option does:
 ### Notes
 Below are some points to take note of when customising the sever.properties file:
 - `spawn-protection` is ignored unless at least 1 player has the OPERATOR status on the server (Make a player an Operator by running `/op Their_Username`)
+- It is __not recommended__ to change the `max-tick-time` value
+
 ### How to edit the server.properties file
 Soon:tm:
