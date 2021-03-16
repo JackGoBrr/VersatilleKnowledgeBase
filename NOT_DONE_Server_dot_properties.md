@@ -21,5 +21,8 @@ View the table below for a guide on what each option does:
 |  |  |  |  |
 |  |  |  |  |
 
+### Notes
+Below are some points to take note of when customising the sever.properties file:
+- `spawn-protection` is ignored unless at least 1 player has the OPERATOR status on the server (Make a player an Operator by running `/op Their_Username`)
 ### How to edit the server.properties file
 Soon:tm:
