@@ -29,6 +29,7 @@ View the table below for a guide on what each option does:
 | `difficulty` | Chooses the difficulty of the server | `peaceful`, `easy`, `medium` or `hard` | `easy` |
 | `broadcast-rcon-to-ops` | Decides whether or not rcon messages are sent to online operators | `true` or `false` | `true` |
 | `spawn-monsters` | Chooses whether hostile mobs will be able to spawn | `true` or `false` | `true` |
+| `op-permission-level` | Chooses how powerful operators are on the server | Any value between `1` and `4` | `4` |
 
 ### Notes
 Below are some points to take note of when customising the sever.properties file:
