@@ -23,6 +23,12 @@ View the table below for a guide on what each option does:
 | `enforce-whitelist` | Toggled whether or not the whitelist is on | `true` or `false` | `false` |
 | `gamemode` | Pairs with the `force-gamemode` setting. Whatever this is set to will be the gamemode players are put into on login when `force-gamemode` is set to `true` | Any valid Gamemode: e.g. `survival`, `creative`, `spectator` or `adventure` | `survival` |
 | `broadcast-console-to-ops` | Decides whether or not console events, such as messages from `/op` will be shown to online server operators | `true` or `false` | `true` |
+| `enable-query` | Decides if the Query module of your server is enabled | `true` or `false` | `false` |
+| `player-idle-timeout` | If the setting is turned on (a.k.a the value is not 0), AFK players will be kicked from the server after the set amount of minutes | Any integer value | 0 |
+| `text-filtering-config` | Allows you to specify an online service for filtering text, such as chat or the text of written books | URL to an online filtering service | Nothing |
+| `difficulty` | Chooses the difficulty of the server | `peaceful`, `easy`, `medium` or `hard` | `easy` |
+| `broadcast-rcon-to-ops` | Decides whether or not rcon messages are sent to online operators | `true` or `false` | `true` |
+| `spawn-monsters` | Chooses whether hostile mobs will be able to spawn | `true` or `false` | `true` |
 
 ### Notes
 Below are some points to take note of when customising the sever.properties file:
