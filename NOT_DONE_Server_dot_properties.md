@@ -80,4 +80,11 @@ Below are some points to take note of when customising the sever.properties file
 - It is not recommended to disable the `online-mode` feature, unless you have a plugin such as [AuthMe](https://www.spigotmc.org/resources/authmereloaded.6269/) or other means of 2fa installed.
 
 ### How to edit the server.properties file
-Soon:tm:
+Editing the **Server.properties** file is super simple! Follow the steps below:
+- Step 1: Log into your server's file access (sFTP)
+- Step 2: Locate the **server.properties** file in your server's __Root Folder__
+- Step 3: Once open, find the value(s) you would like to edit
+- Step 4: Once you are done editing, press CTRL+S to save the file, and re-upload it to your server.
+- Step 5: Complete any other necessary file changes (If a setting needs other file changes, it is listed in the **Notes** section of this guide.
+- Step 6: Save everything!!
+- Step 7: Restart the server
