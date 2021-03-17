@@ -49,7 +49,23 @@ View the table below for a guide on what each option does:
 | `spawn-npcs` | Controls whether NPCs such as Villagers and Wandering Traders spawn naturally | `true` or `false` | `true` |
 | `allow-flight` | Controls whether the server checks for flying players and kicks them automatically | `true` or `false` | `false` |
 | `level-name` | The name of the default world. Set this to the name of the folder that you have dragged in if installing something like an adventure map on your server | Any valid folder name | `world` |
-| `view-distance` | 
+| `view-distance` | Sets the view distance of the server. This is the value that decides how far away a player has to be, before the server allows them to render in entites. | Any value ranging from `1` to `48` | `10` |
+| `resource-pack` | The resource pack key that the server should use. See our guide on Server Resource Packs for more information | Any valid Resource Pack Key | `None` |
+| `spawn-animals` | Controls whether passive mobs should be allowed to spawn | `true` or `false` | `true` |
+| `white-list` | Controls whether the whitelist is on or off. This can also be edited with commands such as `/whitelist on / off`. See our Java Whitelist guide for more info. | `true` or `false` | `false` |
+| `rcon.password` | The password the server should use to access to rCon server. Do not type here if you don't know what you're doing! | Your password ;) | `None` |
+| `generate-structures` | Whether or not structures, such as villages, woodland mansions, mineshafts, etc should be natrually spawned. | `true` or `false` | `true` |
+| `online-mode` | Controls if players need a premium Mojang account to connect. If disabled, users will be able to connect with cracked copies of the game | `true` or `false` | `true` |
+| `max-build-height` | Change how high the height limit is. Change this to the Y coordinate that should be the highest available build point. | Any value from `1` to `256` | `256` |
+| `level-seed` | Controls what seed your server uses when generating the world. Use our guide on Seeds for more information | Any valid world seed | `None` |
+| `prevent-proxy-connections` | Enable this if you would like to stop VPN or Proxy usage on your server. | `true` or `false` | `false` |
+| `use-native-transport` | Controls the method of sending / recieving packets on the server. It is not recommended to change this value! | `true` or `false` | `true` |
+| `enable-jmx-monitoring` | This enables the JMX Monitoring tool. Once enabled, this will require setup and an external server to host the monitor on. Make sure you know what you're doing before you enable this! | `true` or `false` | `false` |
+| `motd` | The Message of the Day, shown to users who have your server on their Multiplayer Server List. Check out our series of guides on MoTD's for more info. | Any valid MoTD | `A minecraft server` |
+| `rate-limit` | Sets the maximum amount of packets a user can send before getting kicked. Setting to 0 disables this feature. | Any number | `0` |
+| `enable-rcon` | Controls whether the rCon module of the server is enabled. Do not enable this unless you have all the necessary knowledge and tools to set this up. | `true` or `false` | `false` |
+
+
 
 
 ### Notes
@@ -59,7 +75,9 @@ Below are some points to take note of when customising the sever.properties file
 - If you change any port values (Such as `query.port`, you must have the port open in your router / host settings)
 - If `allow-nether` is set to `false`, and there is no world folder for the nether, it will not be generated.
 - You must delete the `world` folder and restart the server for the `level-type` variable to take effect.
-- Certain plugins, such as [JoinFullServer](https://www.spigotmc.org/resources/join-full-server.13949/), can bypass the limit if the player has the given permission node.
+- Certain plugins, such as [JoinFullServer](https://www.spigotmc.org/resources/join-full-server.13949/), can bypass the `max-players` limit if the player has the given permission node.
+- Players can see chunks if they have their render distance higher than the server's, but entites will not be rendered.
+- It is not recommended to disable the `online-mode` feature, unless you have a plugin such as [AuthMe](https://www.spigotmc.org/resources/authmereloaded.6269/) or other means of 2fa installed.
 
 ### How to edit the server.properties file
 Soon:tm:
