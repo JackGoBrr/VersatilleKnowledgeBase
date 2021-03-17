@@ -1,9 +1,8 @@
 To Finish:
-- Server.properties
+- OP Permission Levels Explained
 
 Ideas:
 - Bungeecord config explained
-- OP Permission Levels Explained
 - How to fix a .yml file
 - How to install shaders on your Client
 - How to create a mySQL Database
