@@ -45,7 +45,7 @@ View the table below for a guide on what each option does:
 | `rcon.port` | Changes the port of the server. Not recommended unless rCon is enabled and you know what you're doing. | Any valid port value | `25575` |
 | `server-port` | Changes the server port. Do not change this unless configured in your server panel / router! | Any valid port value | `25565`, or the port listed on your panel |
 | `debug` | If this option is true, more information is logged to console on startup. Useful for beta spigot versions. | `true` or `false` | `false` |
-| `server-ip` | Sets the IP that the server binds to on startup. Do not change this unless told to, VersatilleNode handles this automatically! | Any valid IP address | `None` |
+| `server-ip` | Sets the IP that the server binds to on startup. Do not change this unless told to, VersatileNode handles this automatically! | Any valid IP address | `None` |
 | `spawn-npcs` | Controls whether NPCs such as Villagers and Wandering Traders spawn naturally | `true` or `false` | `true` |
 | `allow-flight` | Controls whether the server checks for flying players and kicks them automatically | `true` or `false` | `false` |
 | `level-name` | The name of the default world. Set this to the name of the folder that you have dragged in if installing something like an adventure map on your server | Any valid folder name | `world` |
