@@ -1,5 +1,6 @@
 # Changing your server's icon
 In this guide, you'll find out how to change your server's icon to make it look more beautiful for people who add your server to their server list :)
+This guide is applicable for all of Vanilla Servers, BungeeCord, and Spigot / Paper servers!
 
 ### Pre-requisites
 - A Minecraft Service
@@ -24,4 +25,14 @@ If your icon is already set to the correct size (`64x64 Pixels`), you can skip t
 - Step 8: Now you're done resizing, click `✅ I'm done, resize my picture`
 - Step 9: Save the picture on your device
 
-### test
+### Uploading your new icon
+Now it's time to upload your new icon to your server!
+
+- Step 10: Login to your Server's sFTP (See [this guide](https://help.versatilenode.com/en/article/how-to-login-to-sftp-ruuhdf/) for help with connecting!)
+- Step 11: Navigate to your server's **Root Folder**
+- Step 12: Upload the icon via your chosen FTP Client
+- Step 13: Right-Click, and rename the file you just uploaded to `server-icon.png`
+- Step 14: If you correctly followed all steps, you should now be able to restart your server, and see your new beautiful icon in all of it's glory!
+
+
+If you are experiencing issues or would like some help, don't forget you can join our [Discord Server](https://discord.gg/6geADBgCYw) or make a [Support Ticket](https://billing.versatilenode.com/submitticket.php) on our website! 
