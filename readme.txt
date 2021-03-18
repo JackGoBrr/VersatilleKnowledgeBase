@@ -1,5 +1,4 @@
 To Finish:
-- OP Permission Levels Explained
 
 Ideas:
 - Bungeecord config explained
