@@ -12,7 +12,6 @@ Ideas:
 - Pre-Generating the world on your server
 - How to change your server's MOTD [Bungee]
 - How to change your server's MOTD [Spigot]
-- How to change your server's icon
 - How to install plugins to your server
 - World Management with Multiverse
 - How to generate a void-world on your server
