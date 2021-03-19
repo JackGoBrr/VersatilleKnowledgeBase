@@ -1,5 +1,5 @@
 To Finish
-
+- Gamerules explained
 
 Ideas:
 - Bungeecord config explained
@@ -8,7 +8,6 @@ Ideas:
 - How to create a mySQL Database
 - How to make a paper timings report
 - How to allow multiple versions to connect to your mc server
-- Gamerules explained
 - Pre-Generating the world on your server
 - How to change your server's MOTD [Bungee]
 - How to change your server's MOTD [Spigot]
