@@ -1,5 +1,5 @@
 To Finish
-- How to install a shader pack
+
 
 Ideas:
 - Bungeecord config explained
