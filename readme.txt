@@ -1,10 +1,10 @@
 To Finish
-- How to install a datapack
+- How to install a shader pack
 
 Ideas:
 - Bungeecord config explained
 - How to fix a .yml file
-- How to install shaders on your Client
+- How to install a datapack
 - How to create a mySQL Database
 - How to make a paper timings report
 - How to allow multiple versions to connect to your mc server
