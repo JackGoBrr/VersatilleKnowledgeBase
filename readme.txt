@@ -1,4 +1,5 @@
-To Finish:
+To Finish
+- How to install a datapack
 
 Ideas:
 - Bungeecord config explained
@@ -6,7 +7,6 @@ Ideas:
 - How to install shaders on your Client
 - How to create a mySQL Database
 - How to make a paper timings report
-- How to install a datapack
 - How to allow multiple versions to connect to your mc server
 - Gamerules explained
 - Pre-Generating the world on your server
