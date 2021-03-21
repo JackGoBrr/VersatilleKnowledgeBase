@@ -37,13 +37,30 @@ See the notes section below for notes to take when changing certain gamerules.
 | `logAdminCommands` | Controls whether admin-related commands run by OPs and Admins are logged to the server's log file. | `true` or `false` | `true` |
 | `maxCommandChainLength` | Controls the number at which the chain command block acts as a "chain". | `true` or `false` | `true` |
 | `maxEntityCramming` | The number of entities a player can be in a small space with before taking 1.5 hearts of suffocation damage per second. | Any valid integer | `24` |
-
+| `mobGriefing` | Controls whether mobs can edit the terrain or pick up blocks | `true` or `false` | `true` |
+| `naturalRegeneration` | Controls whether players can naturally regain health points | `true` or `false` | `true` |
+| `randomTickSpeed` | Controls how often a random block update occurs, higher number = more random ticks | Any valid integer | `3` |
+| `reducedDebugInfo` | Controls whether the `F3` Debug Screen shows reduced or all information about the world. | `true` or `false` | `true` |
+| `sendCommandFeedback` | Controls whether the response from commands executed by a player should show up in chat. This Gamerule also affects command blocks, and whether they should store output text. | `true` or `false` | `true` |
+| `showDeathMessages` | Controls whether player and (Named) tamed entity death messages will be broadcasted in chat | `true` or `false` | `true` |
+| `spawnRadius` | The number of blocks away from the central world spawn point that a player can spawn if they join the server for the first time, or don't have a bed | Any valid integer | `10` |
+| `spectatorsGenerateChunks` | Controls whether players in `Spectator Mode` are able to generate chunks | `true` or `false` | `true` |
+| `universalAnger` | Controls whether angered-neutral mobs should attack any player in it's radius. If disabled, the mob will only attack the player that first damaged it. | `true` or `false` | `false` |
 
 
 ### Notes
 - Changing `disableElytraMovementCheck` is not recommended as it does not check a player's movement packets when a player wears the concerned armour piece. This means they may be able to bypass speed and fly hack checks in some cases.
 - `disableRaids` does not disable spawning of Pillagers / Ravagers / Illagers. It just prevents them from getting agitated and raiding a nearby village.
 - `maxEntityCramming` watches for all of the following mobs: `All Non Spectator-Mode Players, All mobs (except bats), Boats and Minecarts`
+- `mobGriefing` watches for all of the following mobs: `Creepers, Zombies, Endermen, Ghasts, Withers, Ender Dragons, Rabbits, Sheep, Villagers, Silverfish, Snow Golems, and End Crystals`. It also disables the following features: `Piglin Trading (Bartering) and ability for Zombified Creatures (Zombie Pigmen, Drowned, etc.) to pathfind Turtle Eggs`
+- If `reducedDebugInfo` is set to `true`, Keybinds `F3+B (Mob Hitboxes)` and `F3+G (Chunk boundaries)` will not be shown
+- `universalAnger` works best if `forgiveDeadPlayers` is disabled.
 
 
 ### How do I change a gamerule?
+Changing a gamerule is super easy! Follow the steps below to change a gamerule on your server:
+
+- Step 1: Log into your Minecraft Server
+- Step 2: Ensure you are Operator, by typing `op Your_IGN` into Console
+- Step 3: Execute the command `/gamerule <Gamerule Name> <New Value>` in-game (If you are executing the command from console, make sure to remove the `/` at the beginning of the command!)
+- Step 4: Ta-Da! You have now updated your chosen gamerule 🎉
