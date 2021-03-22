@@ -1,5 +1,4 @@
 To Finish
-- Gamerules explained
 
 Ideas:
 - Bungeecord config explained
