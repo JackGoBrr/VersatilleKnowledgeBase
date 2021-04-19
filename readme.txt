@@ -12,7 +12,6 @@ Ideas:
 - How to change your server's MOTD [Spigot]
 - How to install plugins to your server
 - World Management with Multiverse
-- How to generate a void-world on your server
 - Paper.yml explained
 
 
