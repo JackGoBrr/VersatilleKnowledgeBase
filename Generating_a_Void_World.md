@@ -32,4 +32,25 @@ worlds:
 - Step 9: Tada! Your default world is now a void 🎉
 
 ### Generating a custom or new world with Multiverse
-Stuff_here.exe
+Generating a void world with multiverse is super easy! It only takes one command!
+Follow the steps below to create a Void World using Multiverse
+
+1. **Step 1:** Login to your server using the IP provided on your server's panel
+2. **Step 2:** Ensure that you are a __server operator__, or you have permission to run Multiverse Commands
+
+> Tip: Multiverse permissions can be found [here](https://github.com/Multiverse/Multiverse-Core/wiki/Big-List-O'-Permissions)
+
+3. **Step 3:** Type the following command: `/mv create <YourWorldName> NORMAL -g VoidGenerator:VANILLA -t FLAT`
+4. **Step 4:** If you typed the command correctly, the world will be created
+5. **Step 5:** Travel to the world using `/mv tp <YourWorldName>`
+6. **Step 6:** All done! 🎉
+
+### Notes
+- When modifying the default world, change `level-type` in `server.properties` to `FLAT`. This way, the void darkness will start a Y Level 0, instead of Y Level 64.
+- When creating a world, you can change the `VANILLA` option to any valid biome. A list of biome IDs can be found [here](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/Biome.html)
+
+### Need assistance?
+If you need help with anything in this article, be sure to reach out to us on our discord, or via a Ticket!
+
+- Our Discord: https://discord.versatilenode.com/
+- Submit a Ticket: https://billing.versatilenode.com/submitticket.php/
