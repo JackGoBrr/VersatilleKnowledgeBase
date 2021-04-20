@@ -15,6 +15,12 @@ Ideas:
 - How to purchase a plugin [MC-Market]
 - World Management with Multiverse
 - Paper.yml explained
+- How to give someone console [pte]
+- How to make a new port (allocation) and switch to it [pte]
+- How to make a backup on the panel [pte]
+- How to make a scheduled task [pte]
+- Make an archive of your whole server [pte file mgr]
+- Make an archive of some files on your sevrer [pte file mgr]
 
 
 Reserve:
