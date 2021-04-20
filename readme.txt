@@ -11,6 +11,8 @@ Ideas:
 - How to change your server's MOTD [Bungee]
 - How to change your server's MOTD [Spigot]
 - How to install plugins to your server
+- How to purchase a plugin [SpigotMC]
+- How to purchase a plugin [MC-Market]
 - World Management with Multiverse
 - Paper.yml explained
 
