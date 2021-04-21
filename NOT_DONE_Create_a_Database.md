@@ -7,4 +7,9 @@ Follow the steps below, and you'll have a database up and running in no time!
 - Access to your server's [Pterodactyl Panel](https://panel.versatilenode.com/)
 - Permission to add, create, and view databases on the panel
 
-### Getting Started
+### Creating a Database
+Creating a database is super easy! Follow these 4 easy steps and you'll have a database in no time!
+
+1. **Step 1:** Login to your game panel
+> 💡 **Tip:** You can find the panel login at [https://panel.versatilenode.com/](https://panel.versatilenode.com/)
+2. **Step 2:** Select your server in the list of servers
