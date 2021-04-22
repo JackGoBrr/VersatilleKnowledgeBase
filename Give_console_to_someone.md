@@ -17,6 +17,7 @@ First, we need to get your friend an account on VersatileNode. If your friend al
 3. **Step 3:** Tell them to proceed with setting up an account, filling in the relevant and required fields
 
 Now that your friend has their account setup, let's add them to your server:
+
 4. **Step 4:** Head over to the [Game Panel](https://panel.versatilenode.com/), and login
 5. **Step 5:** Select the server you'd like to add a new user to, in your list of servers
 6. **Step 6:** Once on the console for your desired server, select `Users` at the top of the panel.
