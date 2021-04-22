@@ -9,3 +9,6 @@ Have another owner on your server, or want someone to help you with setting stuf
 - A friend that you'd like to add to the panel
 
 ### Getting Started
+Follow the super easy steps below, and your friend will be able to access your server's panel in no time!
+
+1. **Step 1:** 
