@@ -13,7 +13,6 @@ Ideas:
 - How to purchase a plugin [MC-Market]
 - World Management with Multiverse
 - Paper.yml explained
-- How to make a backup on the panel [pte]
 - How to make a scheduled task [pte]
 - Make an archive of your whole server [pte file mgr]
 - Make an archive of some files on your sevrer [pte file mgr]
@@ -21,3 +20,4 @@ Ideas:
 
 Reserve:
 - server resource pack
+- How to make a backup on the panel [pte] (not available on current hosting - ask anthony / tristan for more details)
