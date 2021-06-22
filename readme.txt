@@ -16,6 +16,11 @@ Ideas:
 - How to make a scheduled task [pte]
 - Make an archive of your whole server [pte file mgr]
 - Make an archive of some files on your sevrer [pte file mgr]
+- How to cancel a service
+- How to auto pay your bills with paypal subscription
+- LuckPerms group setup
+- Luckperms prefixes/suffixes
+- 
 
 
 Reserve:
