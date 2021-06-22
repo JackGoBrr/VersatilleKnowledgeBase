@@ -20,7 +20,12 @@ Ideas:
 - How to auto pay your bills with paypal subscription
 - LuckPerms group setup
 - Luckperms prefixes/suffixes
-- 
+- A list of minecraft color codes
+- setting up tcpshield
+- setting up your domain on cloudflare
+- making records for your server on cloudflare
+
+- Possible video tutorials?
 
 
 Reserve:
